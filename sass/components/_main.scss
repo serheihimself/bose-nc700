@@ -29,3 +29,34 @@
     margin-top: 94px;
     margin-bottom: 86px;
 }
+.benefits_wrapper {
+    width: 100%;
+    display: flex;
+    gap: 150px;
+}
+.benefits_container {
+    width: 518px;
+}
+.benefits_list {
+    margin-top: 50px;
+}
+.benefits_card {
+    margin-bottom: 40px;
+}
+.benefits_subtitle {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+.ability_wrapper {
+    padding-left: 190px;
+}
+.ability_list {
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 50px;
+}

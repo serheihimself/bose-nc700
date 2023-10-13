@@ -13,11 +13,17 @@ body {
   font-family: "Gilroy Regular";
   background-color: #191919;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 1.45;
 }
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p, h1, h2, h3 {
   margin: 0;
   padding: 0;
 }
@@ -48,6 +54,12 @@ button {
   padding-bottom: 170px;
 }
 
+.title {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
 .order_btn {
   width: 400px;
   font-size: 20px;
@@ -72,13 +84,17 @@ button {
 
 .header_logo_link {
   display: flex;
-  width: 100px;
-  height: 25px;
+  width: 110px;
+  height: 20px;
 }
 
 .header_list {
   display: flex;
   gap: 75px;
+}
+
+.benefits_description {
+  height: 100%;
 }
 
 .hero_wrapper {
@@ -117,4 +133,42 @@ button {
   letter-spacing: 0.02em;
   margin-top: 94px;
   margin-bottom: 86px;
+}
+
+.benefits_wrapper {
+  width: 100%;
+  display: flex;
+  gap: 150px;
+}
+
+.benefits_container {
+  width: 518px;
+}
+
+.benefits_list {
+  margin-top: 50px;
+}
+
+.benefits_card {
+  margin-bottom: 40px;
+}
+
+.benefits_subtitle {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 20px;
+}
+
+.ability_wrapper {
+  padding-left: 190px;
+}
+
+.ability_list {
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 50px;
 }/*# sourceMappingURL=main.css.map */

@@ -15,10 +15,15 @@ body {
     font-family: 'Gilroy Regular';
     background-color: #191919;
     color: rgba(255,255,255,.8);
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 1.45;
 }
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p, h1, h2, h3 {
     margin: 0;
     padding: 0;
 }
@@ -43,6 +48,11 @@ button {
 }
 .section {
     padding-bottom: 170px;
+}
+.title {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 1.2;
 }
 .order_btn {
     width: 400px;

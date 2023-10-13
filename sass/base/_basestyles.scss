@@ -8,6 +8,26 @@
     font-weight: normal;
     font-style: normal;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Gilroy Regular';
+    background-color: #191919;
+    color: rgba(255,255,255,.8);
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+.container {
+    width: 1440px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
 }

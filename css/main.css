@@ -13,6 +13,7 @@ body {
   font-family: "Gilroy Regular";
   background-color: #191919;
   color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
 }
 
 ul {
@@ -30,6 +31,12 @@ a:hover {
   color: #df3d3a;
 }
 
+button {
+  cursor: pointer;
+  border: none;
+  color: #fff;
+}
+
 .container {
   width: 1440px;
   padding-left: 70px;
@@ -39,6 +46,16 @@ a:hover {
 
 .section {
   padding-bottom: 170px;
+}
+
+.order_btn {
+  width: 400px;
+  font-size: 20px;
+  padding: 22px 0;
+  background-color: #df3d3a;
+  line-height: 1.25;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 .header {
@@ -62,4 +79,36 @@ a:hover {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  gap: 40px;
+}
+
+.hero_title_wrapper {
+  width: 100%;
+}
+
+.hero_first_description {
+  width: 321px;
+  margin-bottom: 36px;
+}
+
+.hero_second_description {
+  width: 150px;
+}
+
+.hero_first_description, .hero_second_description {
+  font-size: 20px;
+}
+
+.hero_title_container {
+  width: min-content;
+  margin-left: auto;
+}
+
+.hero_title {
+  font-size: 74px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  margin-top: 94px;
+  margin-bottom: 86px;
 }/*# sourceMappingURL=main.css.map */

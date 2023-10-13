@@ -15,6 +15,7 @@ body {
     font-family: 'Gilroy Regular';
     background-color: #191919;
     color: rgba(255,255,255,.8);
+    font-size: 18px;
 }
 ul {
     list-style: none;
@@ -29,6 +30,11 @@ a {
         color: #df3d3a;;
     }
 }
+button {
+    cursor: pointer;
+    border: none;
+    color: #fff;
+}
 .container {
     width: 1440px;
     padding-left: 70px;
@@ -37,4 +43,13 @@ a {
 }
 .section {
     padding-bottom: 170px;
+}
+.order_btn {
+    width: 400px;
+    font-size: 20px;
+    padding: 22px 0;
+    background-color: #df3d3a;;
+    line-height: 1.25;
+    font-weight: 600;
+    letter-spacing: .02em;
 }

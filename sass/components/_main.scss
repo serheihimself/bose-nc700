@@ -2,4 +2,30 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    gap: 40px;
+}
+.hero_title_wrapper {
+    width: 100%;
+}
+.hero_first_description {
+    width: 321px;
+    margin-bottom: 36px;
+}
+.hero_second_description {
+    width: 150px;
+}
+.hero_first_description, .hero_second_description {
+    font-size: 20px;
+}
+.hero_title_container {
+    width: min-content;
+    margin-left: auto;
+}
+.hero_title {
+    font-size: 74px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: .02em;
+    margin-top: 94px;
+    margin-bottom: 86px;
 }

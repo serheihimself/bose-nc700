@@ -8,6 +8,13 @@
     align-items: center;
     height: inherit;
 }
+
+.header_logo_link {
+    display: flex;
+    width: 100px;
+    height: 25px;
+  }
+  
 .header_list {
     display: flex;
     gap: 75px;

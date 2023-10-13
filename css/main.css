@@ -58,6 +58,7 @@ button {
   font-size: 54px;
   font-weight: 600;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .order_btn {
@@ -117,7 +118,8 @@ button {
   width: 150px;
 }
 
-.hero_first_description, .hero_second_description {
+.hero_first_description,
+.hero_second_description {
   font-size: 20px;
 }
 
@@ -171,4 +173,18 @@ button {
   flex-wrap: wrap;
   gap: 16px;
   margin-top: 50px;
+}
+
+.ability_card {
+  display: flex;
+  align-items: center;
+}
+.ability_card:before {
+  display: flex;
+  margin-right: 24px;
+  content: "";
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #df3d3a;
 }/*# sourceMappingURL=main.css.map */

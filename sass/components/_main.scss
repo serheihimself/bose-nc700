@@ -1,62 +1,76 @@
 .hero_wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
 }
 .hero_title_wrapper {
-    width: 100%;
+  width: 100%;
 }
 .hero_first_description {
-    width: 321px;
-    margin-bottom: 36px;
+  width: 321px;
+  margin-bottom: 36px;
 }
 .hero_second_description {
-    width: 150px;
+  width: 150px;
 }
-.hero_first_description, .hero_second_description {
-    font-size: 20px;
+.hero_first_description,
+.hero_second_description {
+  font-size: 20px;
 }
 .hero_title_container {
-    width: min-content;
-    margin-left: auto;
+  width: min-content;
+  margin-left: auto;
 }
 .hero_title {
-    font-size: 74px;
-    font-weight: 600;
-    line-height: 1;
-    letter-spacing: .02em;
-    margin-top: 94px;
-    margin-bottom: 86px;
+  font-size: 74px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  margin-top: 94px;
+  margin-bottom: 86px;
 }
 .benefits_wrapper {
-    width: 100%;
-    display: flex;
-    gap: 150px;
+  width: 100%;
+  display: flex;
+  gap: 150px;
 }
 .benefits_container {
-    width: 518px;
+  width: 518px;
 }
 .benefits_list {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 .benefits_card {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 .benefits_subtitle {
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 1.25;
-    margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 20px;
 }
 .ability_wrapper {
-    padding-left: 190px;
+  padding-left: 190px;
 }
 .ability_list {
-    height: 125px;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 50px;
+}
+.ability_card {
+  display: flex;
+  align-items: center;
+  &:before {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 16px;
-    margin-top: 50px;
+    margin-right: 24px;
+    content: "";
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #df3d3a;;
+  }
 }

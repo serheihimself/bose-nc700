@@ -28,6 +28,12 @@ p, h1, h2, h3 {
   padding: 0;
 }
 
+img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
 a {
   color: currentColor;
   text-decoration: none;
@@ -69,6 +75,13 @@ button {
   line-height: 1.25;
   font-weight: 600;
   letter-spacing: 0.02em;
+}
+
+.subtitle {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 20px;
 }
 
 .header {
@@ -155,13 +168,6 @@ button {
   margin-bottom: 40px;
 }
 
-.benefits_subtitle {
-  font-size: 28px;
-  font-weight: 600;
-  line-height: 1.25;
-  margin-bottom: 20px;
-}
-
 .ability_wrapper {
   padding-left: 190px;
 }
@@ -187,4 +193,62 @@ button {
   height: 13px;
   border-radius: 50%;
   background: #df3d3a;
+}
+
+.sound_title {
+  text-align: right;
+  margin-bottom: 50px;
+}
+
+.sound_list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.sound_card {
+  width: 510px;
+}
+
+.technology_wrappep {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  background-image: url("../../assets/sinus-desktop.d70bf838.svg");
+  background-repeat: no-repeat;
+  background-position: 104% 100%;
+}
+
+.technology_container {
+  padding-left: 70px;
+  width: 510px;
+}
+
+.technology_title {
+  margin-bottom: 50px;
+}
+
+.guarantee_container {
+  width: 510px;
+  padding-left: 70px;
+}
+
+.guarantee_list {
+  margin-top: 85px;
+}
+
+.guarantee_card {
+  position: relative;
+  margin-bottom: 100px;
+}
+.guarantee_card::before {
+  content: "";
+  position: absolute;
+  top: -37px;
+  left: 0;
+  display: block;
+  width: 13px;
+  border-radius: 50%;
+  height: 13px;
+  background-color: #df3d3a;
 }/*# sourceMappingURL=main.css.map */

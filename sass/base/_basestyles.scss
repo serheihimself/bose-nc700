@@ -27,6 +27,11 @@ p, h1, h2, h3 {
     margin: 0;
     padding: 0;
 }
+img {
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
 a {
     color: currentColor;
     text-decoration: none;
@@ -64,3 +69,9 @@ button {
     font-weight: 600;
     letter-spacing: .02em;
 }
+.subtitle {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 20px;
+  }

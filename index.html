@@ -52,7 +52,9 @@
             </div>
             <div class="hero_title_container">
               <h1 class="hero_title">HEADPHONES BOSE NC 700</h1>
-              <button class="order_btn" type="button">ORDER</button>
+              <button class="order_btn" type="button" data-modal-open>
+                ORDER
+              </button>
             </div>
           </div>
           <img src="./assets/hero-desctop@1x.33ea7adf.png" alt="bose-nc700" />
@@ -264,7 +266,8 @@
                 <div class="reviews-slide__wrapper">
                   <h3 class="swiper_subtitle subtitle">Bose Сorporation</h3>
                   <p>
-                    Real stories of people tuning in or out to feel peace, find escape, and for self-care
+                    Real stories of people tuning in or out to feel peace, find
+                    escape, and for self-care
                   </p>
                 </div>
               </div>
@@ -279,7 +282,33 @@
       </section>
     </main>
     <footer></footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal_close_btn" data-modal-close>
+          <svg width="30" height="30">
+            <use href="./assets/sprite.svg#icon-clear"></use>
+          </svg>
+        </button>
+        <form class="modal-order-form" action="#">
+          <input class="modal-order-input" type="text" placeholder="Your name" required/>
+          <input class="modal-order-input" type="text" placeholder="Your e-mail" required/>
+          <textarea
+            name=""
+            id="modal-order-textarea"
+            cols="30"
+            rows="10"
+            placeholder="Send us a message"
+          ></textarea>
+          <label for="">
+            <input type="checkbox" required/>
+            <span></span>
+            <button type="submit">SEND</button>
+          </label>
+        </form>
+      </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./js/swipper.js"></script>
+    <script src="./js/modal-order.js"></script>
   </body>
 </html>

@@ -174,3 +174,37 @@ margin-top: 85px;
 .swiper_subtitle {
   color: #df3d3a;
 }
+.swiper-pagination {
+  width: fit-content;
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  gap: 30px;
+  left: 1040px;
+}
+.swiper-pagination-bullet {
+  color: #df3d3a;
+  opacity: 0.2;
+  width: auto;
+  height: auto;
+  background: 0 0;
+  border: 0 solid;
+  border-radius: 0;
+  font-size: 28px;
+  line-height: 1.25;
+  position: relative;
+  cursor: pointer;
+  &::after {
+    content: "";
+    width: 7px;
+    height: 1px;
+    background-color: #df3d3a;
+    position: absolute;
+    top: 50%;
+    right: -19px;
+    transform: translateY(-50%);
+  }
+  &:active {
+    opacity: 1;
+  }
+}

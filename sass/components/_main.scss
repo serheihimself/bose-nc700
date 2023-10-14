@@ -84,7 +84,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
-  background-image: url('../../assets/sinus-desktop.d70bf838.svg');
+  background-image: url('../assets/sinus-desktop.d70bf838.svg');
   background-repeat: no-repeat;
   background-position: 104% 100%;
   
@@ -118,3 +118,40 @@ margin-top: 85px;
     background-color: #df3d3a;
     }
       }
+.history_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 60px;
+}
+.history_container {
+  width: 510px;
+  padding-left: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.history_wrapper img {
+  margin-top: 60px;
+}
+.history_box {
+  width: 510px;
+}
+.history_box_wrapper {
+  margin-top: 100px;
+  margin-left: 60px;
+  &::before {
+    content:'';
+    margin: 32px 0 24px; 
+    background-image: url("../assets/quote.ffb70970.svg");  
+    display: inline-block;  
+    height: 25px;  
+    width: 34px; 
+  }
+}
+.history_description {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255,255,255,.4);;
+  line-height: .7;
+}

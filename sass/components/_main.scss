@@ -155,3 +155,22 @@ margin-top: 85px;
   color: rgba(255,255,255,.4);;
   line-height: .7;
 }
+.slider_rewievs {
+  position: relative;
+}
+.slider_title {
+  position: absolute;
+  top: 0;
+  left: 1040px;
+}
+.rewievs_slide {
+  display: flex;
+}
+.reviews-slide__wrapper {
+  max-width: 258px;
+  margin-top: 105px;
+  margin-left: 120px;
+}
+.swiper_subtitle {
+  color: #df3d3a;
+}

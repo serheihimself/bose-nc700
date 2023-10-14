@@ -321,12 +321,12 @@ button {
 }
 
 .swiper-pagination {
-  width: fit-content;
+  width: fit-content !important;
   display: flex;
   position: absolute;
   bottom: 20px;
   gap: 30px;
-  left: 1040px;
+  left: 1040px !important;
 }
 
 .swiper-pagination-bullet {
@@ -352,6 +352,7 @@ button {
   right: -19px;
   transform: translateY(-50%);
 }
-.swiper-pagination-bullet:active {
+
+.swiper-pagination-bullet-active {
   opacity: 1;
 }/*# sourceMappingURL=main.css.map */

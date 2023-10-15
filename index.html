@@ -25,13 +25,11 @@
   </head>
   <body>
     <header class="header container">
-      <nav class="header__navigation">
+      <nav>
         <a href="#" class="header_logo_link">
-          <svg>
-            <use href="./assets/sprite.svg#icon-bose-logo"></use>
-          </svg>
+          <svg><use href="./assets/sprite.svg#icon-bose-logo"></use></svg>
         </a>
-        <ul class="header_list">
+        <ul>
           <li><a href="#characteristics">Characteristics</a></li>
           <li><a href="#history">History</a></li>
           <li><a href="#reviews">Reviews</a></li>
@@ -51,7 +49,7 @@
               <p class="hero_second_description">Up to 20 hours of playback</p>
             </div>
             <div class="hero_title_container">
-              <h1 class="hero_title">HEADPHONES BOSE NC 700</h1>
+              <h1>HEADPHONES BOSE NC 700</h1>
               <button class="order_btn" type="button" data-modal-open>
                 ORDER
               </button>
@@ -290,8 +288,18 @@
           </svg>
         </button>
         <form class="modal-order-form" action="#">
-          <input class="modal-order-input" type="text" placeholder="Your name" required/>
-          <input class="modal-order-input" type="text" placeholder="Your e-mail" required/>
+          <input
+            class="modal-order-input"
+            type="text"
+            placeholder="Your name"
+            required
+          />
+          <input
+            class="modal-order-input"
+            type="text"
+            placeholder="Your e-mail"
+            required
+          />
           <textarea
             name=""
             id="modal-order-textarea"
@@ -299,10 +307,10 @@
             rows="10"
             placeholder="Send us a message"
           ></textarea>
-          <label for="">
-            <input type="checkbox" required/>
-            <span></span>
-            <button type="submit">SEND</button>
+          <label class="form-label-input">
+            <input type="checkbox" required />
+            <span>I agree to the order conditions</span>
+            <button type="submit" class="modal-submit-btn">SEND</button>
           </label>
         </form>
       </div>

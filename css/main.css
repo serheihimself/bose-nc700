@@ -23,9 +23,21 @@ ul {
   padding: 0;
 }
 
-p, h1, h2, h3 {
+p,
+h1,
+h2,
+h3 {
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  font-size: 74px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  margin-top: 94px;
+  margin-bottom: 86px;
 }
 
 img {
@@ -89,7 +101,7 @@ button {
   height: 153px;
 }
 
-.header__navigation {
+.header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -102,13 +114,9 @@ button {
   height: 20px;
 }
 
-.header_list {
+.header ul {
   display: flex;
   gap: 75px;
-}
-
-.benefits_description {
-  height: 100%;
 }
 
 .hero_wrapper {
@@ -139,15 +147,6 @@ button {
 .hero_title_container {
   width: min-content;
   margin-left: auto;
-}
-
-.hero_title {
-  font-size: 74px;
-  font-weight: 600;
-  line-height: 1;
-  letter-spacing: 0.02em;
-  margin-top: 94px;
-  margin-bottom: 86px;
 }
 
 .benefits_wrapper {
@@ -405,7 +404,8 @@ button {
   margin-top: 20px;
 }
 
-.modal-order-input, #modal-order-textarea {
+.modal-order-input,
+#modal-order-textarea {
   background-color: transparent;
   border: none;
   color: rgba(255, 255, 255, 0.9);
@@ -414,6 +414,27 @@ button {
   outline: none;
   cursor: pointer;
 }
-.modal-order-input:focus, #modal-order-textarea:focus {
+.modal-order-input:focus,
+#modal-order-textarea:focus {
   border-bottom: 2px solid #df3d3a;
+}
+
+.form-label-input {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.modal-submit-btn {
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #df3d3a;
+  font-weight: 700;
+  display: block;
+  margin-top: 40px;
+  padding: 20px 0;
+}
+.modal-submit-btn:hover,
+.modal-submit-btn :focus {
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  color: #df3d3a;
 }/*# sourceMappingURL=main.css.map */

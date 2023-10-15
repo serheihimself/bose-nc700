@@ -1,24 +1,21 @@
 .header {
-    width: 100%;
-    height: 153px;
+  width: 100%;
+  height: 153px;
 }
-.header__navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: inherit;
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
 }
 
 .header_logo_link {
-    display: flex;
-    width: 110px;
-    height: 20px;
-  }
-  
-.header_list {
-    display: flex;
-    gap: 75px;
+  display: flex;
+  width: 110px;
+  height: 20px;
 }
-.benefits_description {
-    height: 100%;
+
+.header ul {
+  display: flex;
+  gap: 75px;
 }

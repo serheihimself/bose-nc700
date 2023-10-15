@@ -211,6 +211,9 @@
 }
 .faq_card {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 25px;
   counter-increment: section;
   &::before {
@@ -219,14 +222,29 @@
     font-size: 28px;
     line-height: 1.25;
     margin-right: 32px;
+    display: inline-block;
   }
 }
-.faq_card button {
+.faq-question {
+  display: inline;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+.faq-btn {
   margin-left: auto;
   width: 42px;
   height: 42px;
+  display: inline-block;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  border: 2px solid #fff;
   padding: 10px;
+  &:hover {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+  }
+}
+.faq-answer {
+  display: none;
+  width: 100%;
+  margin-top: 10px;
 }

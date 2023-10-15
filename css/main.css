@@ -356,6 +356,41 @@ button {
   opacity: 1;
 }
 
+.faq_wrapper {
+  padding-left: 190px;
+  padding-right: 190px;
+}
+
+.faq_wrapper ul {
+  margin-top: 50px;
+}
+.faq_wrapper ul :last-child {
+  margin-bottom: 0;
+}
+
+.faq_card {
+  display: flex;
+  margin-bottom: 25px;
+  counter-increment: section;
+}
+.faq_card::before {
+  content: "0" counter(section);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 28px;
+  line-height: 1.25;
+  margin-right: 32px;
+}
+
+.faq_card button {
+  margin-left: auto;
+  width: 42px;
+  height: 42px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  border: 2px solid #fff;
+  padding: 10px;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -487,5 +522,5 @@ button {
 .modal-submit-btn :focus {
   border: 2px solid rgba(255, 255, 255, 0.9);
   color: #df3d3a;
-  transition: border-color, color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }/*# sourceMappingURL=main.css.map */

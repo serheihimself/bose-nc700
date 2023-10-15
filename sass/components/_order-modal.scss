@@ -116,6 +116,6 @@
   :focus {
     border: 2px solid rgba(255, 255, 255, 0.9);
     color: #df3d3a;
-    transition: border-color, color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   }
 }

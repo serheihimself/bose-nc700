@@ -288,30 +288,45 @@
           </svg>
         </button>
         <form class="modal-order-form" action="#">
-          <input
-            class="modal-order-input"
-            type="text"
-            placeholder="Your name"
-            required
-          />
-          <input
-            class="modal-order-input"
-            type="text"
-            placeholder="Your e-mail"
-            required
-          />
-          <textarea
-            name=""
-            id="modal-order-textarea"
-            cols="30"
-            rows="10"
-            placeholder="Send us a message"
-          ></textarea>
+          <div class="form-wrapper">
+            <input
+              class="modal-order-input"
+              type="text"
+              placeholder="Name"
+              required
+            />
+            <label class="form-label">Your name</label>
+          </div>
+          <div class="form-wrapper">
+            <input
+              class="modal-order-input"
+              type="text"
+              placeholder="e-mail"
+              required
+            />
+            <label class="form-label">Your e-mail</label>
+          </div>
+          <div class="form-wrapper">
+            <textarea
+              name="message"
+              id="modal-order-textarea"
+              cols="30"
+              rows="5"
+              placeholder="Message"
+            ></textarea>
+            <label class="form-label">Send us a message</label>
+          </div>
           <label class="form-label-input">
-            <input type="checkbox" required />
+            <input class="form-checkbox-input" type="checkbox" required />
+            <svg class="form-checkbox-icon" width="25" height="25">
+              <use
+                class="form-checkbox-use"
+                href="./assets/sprite.svg#icon-checkmark"
+              ></use>
+            </svg>
             <span>I agree to the order conditions</span>
-            <button type="submit" class="modal-submit-btn">SEND</button>
           </label>
+          <button type="submit" class="modal-submit-btn">SEND</button>
         </form>
       </div>
     </div>

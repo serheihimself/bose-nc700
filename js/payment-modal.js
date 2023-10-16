@@ -3,7 +3,7 @@
     openModalBtn: document.querySelector("[payment-modal-open]"),
     closeModalBtn: document.querySelector("[payment-modal-close]"),
     modal: document.querySelector("[payment-modal]"),
-    backdrop: document.querySelector(".backdrop"),
+    backdrop: document.querySelector(".bdp_pmt"),
   };
 
   refs.openModalBtn.addEventListener("click", openModal);

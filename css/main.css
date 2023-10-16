@@ -630,6 +630,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .form-checkbox-icon {
@@ -743,6 +744,25 @@ button {
   margin: 15px 0;
 }
 
+.payment_form_field {
+  position: relative;
+}
+
+.payment_form_field textarea {
+  width: 100%;
+  color: #fff;
+  background-color: transparent;
+  resize: none;
+  border: none;
+  outline: none;
+  margin-top: 35px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+.payment_form_field textarea:focus {
+  border-color: #df3d3a;
+}
+
 .payment_btn {
   width: 150px;
   display: block;
@@ -750,7 +770,7 @@ button {
   border: 2px solid #df3d3a;
   font-weight: 700;
   padding: 15px 0;
-  margin-top: 15px;
+  margin-top: 18px;
 }
 .payment_btn:hover {
   color: #df3d3a;

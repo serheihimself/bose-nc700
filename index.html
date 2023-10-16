@@ -10,6 +10,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      type="image/png"
+      sizes="32x32"
+      rel="icon"
+      href="/assets/favicon-32x32.539279e7.png"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -510,7 +516,7 @@
       </div>
     </div>
     <!-- ------------PHONE CONTACT MODAL-------------- -->
-    <div class="backdrop is-hidden" contact-modal>
+    <div class="backdrop is-hidden bdp_con" contact-modal>
       <div class="contact_modal">
         <button class="modal_close_btn" type="button" contact-modal-close>
           <svg width="30" height="30">
@@ -549,7 +555,7 @@
       </div>
     </div>
     <!-- --------PAYMENT MODAL----------- -->
-    <div class="backdrop is-hidden" payment-modal>
+    <div class="backdrop is-hidden bdp_pmt" payment-modal>
       <div class="payment_modal">
         <button class="modal_close_btn" type="button" payment-modal-close>
           <svg width="30" height="30">
@@ -568,7 +574,8 @@
         </p>
         <form>
           <div class="payment_form_field">
-            <textarea name="" id="" cols="30" rows="1"></textarea>
+            <textarea name="message" cols="30" rows="1" required></textarea>
+            <label for="message" class="form-label">Write to us</label>
             <button class="payment_btn">SEND</button>
           </div>
         </form>

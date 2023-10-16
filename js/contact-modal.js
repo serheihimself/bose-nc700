@@ -3,7 +3,7 @@
     openModalBtn: document.querySelector("[contact-modal-open]"),
     closeModalBtn: document.querySelector("[contact-modal-close]"),
     modal: document.querySelector("[contact-modal]"),
-    backdrop: document.querySelector(".backdrop"),
+    backdrop: document.querySelector(".bdp_con"),
   };
 
   refs.openModalBtn.addEventListener("click", openModal);

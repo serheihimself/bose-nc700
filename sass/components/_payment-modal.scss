@@ -1,0 +1,37 @@
+.payment_modal {
+  width: 700px;
+  height: 600px;
+  position: absolute;
+  padding: 50px;
+  top: 50%;
+  left: 50%;
+  background-color: #191919;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.payment_modal h3 {
+  font-size: 30px;
+  color: #df3d3a;
+}
+.payment_modal p {
+  width: 500px;
+  font-size: 24px;
+  margin: 15px 0;
+}
+.payment_form_field {
+}
+.payment_btn {
+  width: 150px;
+  display: block;
+  background-color: transparent;
+  border: 2px solid #df3d3a;
+  font-weight: 700;
+  padding: 15px 0;
+  margin-top: 15px;
+  &:hover {
+    color: #df3d3a;
+    border-color: rgba(255, 255, 255, 0.9);
+  }
+}

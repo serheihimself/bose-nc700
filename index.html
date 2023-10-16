@@ -375,7 +375,7 @@
                 </button>
               </li>
               <li>
-                <button class="order_click">
+                <button class="order_click" payment-modal-open>
                   <span>Payment and delivery methods</span>
                   <svg width="20" height="20">
                     <use href="./assets/sprite.svg#icon-arrow-up-right"></use>
@@ -549,11 +549,36 @@
       </div>
     </div>
     <!-- --------PAYMENT MODAL----------- -->
-    <div></div>
+    <div class="backdrop is-hidden" payment-modal>
+      <div class="payment_modal">
+        <button class="modal_close_btn" type="button" payment-modal-close>
+          <svg width="30" height="30">
+            <use href="./assets/sprite.svg#icon-clear"></use>
+          </svg>
+        </button>
+        <h3>Payment information</h3>
+        <p>
+          For your convenience, we offer a wide array of payment methods to
+          complete your purchase as indicated to you at the point of sale.
+        </p>
+        <h3>Delivery</h3>
+        <p>
+          If you have any questions or concerns regarding shipping, please
+          contact us
+        </p>
+        <form>
+          <div class="payment_form_field">
+            <textarea name="" id="" cols="30" rows="1"></textarea>
+            <button class="payment_btn">SEND</button>
+          </div>
+        </form>
+      </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./js/swipper.js"></script>
     <script src="./js/modal-order.js"></script>
     <script src="./js/contact-modal.js"></script>
     <script src="./js/faq.js"></script>
+    <script src="./js/payment-modal.js"></script>
   </body>
 </html>

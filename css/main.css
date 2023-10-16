@@ -69,7 +69,7 @@ button {
 }
 
 .section {
-  padding-bottom: 170px;
+  padding-top: 170px;
 }
 
 .title {
@@ -409,6 +409,60 @@ button {
   display: none;
   width: 100%;
   margin-top: 10px;
+}
+
+.payment_wrapper {
+  position: relative;
+  padding-left: 220px;
+  margin-right: 70px;
+}
+
+.payment_container {
+  width: 400px;
+}
+
+.input-radio {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.dark {
+  background-color: #000;
+  margin-right: 20px;
+}
+
+.light {
+  background-color: #fff;
+}
+
+.payment_wrapper img {
+  position: absolute;
+  height: auto;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.input-radio:checked + .radio-label {
+  border: 5px solid #df3d3a;
+}
+
+.input-radio:checked + .label-radio img {
+  opacity: 1;
+}
+
+.order_click {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.price {
+  color: #df3d3a;
+  margin-top: 50px;
+  margin-bottom: 32px;
 }
 
 .backdrop {

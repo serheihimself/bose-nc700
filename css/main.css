@@ -514,6 +514,26 @@ button {
   justify-content: flex-start;
 }
 
+.footer_wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  font-size: 16px;
+}
+
+.footer_list {
+  margin-left: 50px;
+  display: flex;
+  gap: 50px;
+}
+
+.footer_list a {
+  color: rgba(255, 255, 255, 0.3);
+}
+.footer_list a:hover {
+  color: #df3d3a;
+}
+
 .backdrop {
   position: fixed;
   top: 0;

@@ -1,12 +1,15 @@
 (() => {
   const refs = {
-    openModalBtn: document.querySelector("[data-modal-open]"),
+    openModalBtns: document.querySelectorAll("[data-modal-open]"),
     closeModalBtn: document.querySelector("[data-modal-close]"),
     modal: document.querySelector("[data-modal]"),
     backdrop: document.querySelector(".backdrop"),
   };
 
-  refs.openModalBtn.addEventListener("click", openModal);
+  refs.openModalBtns.forEach((btn) => {
+    btn.addEventListener("click", openModal);
+  });
+
   refs.closeModalBtn.addEventListener("click", closeModal);
   refs.backdrop.addEventListener("click", onBackdropClick);
   window.addEventListener("keydown", onKeyPress);
@@ -26,6 +29,7 @@
       closeModal();
     }
   }
+
   function onBackdropClick(event) {
     if (event.target === refs.backdrop) {
       closeModal();

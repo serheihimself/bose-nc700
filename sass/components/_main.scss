@@ -317,3 +317,20 @@
   margin-top: 50px;
   margin-bottom: 32px;
 }
+.feedback_wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+.feedback_container {
+  width: 400px;
+}
+.feedback_container p {
+  font-size: 28px;
+  margin-top: 50px;
+}
+.feedback_wrapper form {
+  width: 510px;
+}
+.feedback_wrapper label {
+  justify-content: flex-start;
+}

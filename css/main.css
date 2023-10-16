@@ -669,7 +669,7 @@ button {
 }
 
 .contact_modal {
-  width: 500px;
+  width: 510px;
   height: 400px;
   position: absolute;
   padding: 50px;
@@ -679,4 +679,42 @@ button {
   transform: translate(-50%, -50%);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+}
+
+.contact_modal > p {
+  margin-bottom: 30px;
+}
+
+.contact_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_wrapper svg {
+  fill: #df3d3a;
+}
+.contact_wrapper svg:hover {
+  fill: rgba(255, 255, 255, 0.8);
+}
+
+.contact_title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #df3d3a;
+}
+
+.contact_link {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.contact_description {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.contact_description + p {
+  font-family: "Roboto Condensed", sans-serif;
 }/*# sourceMappingURL=main.css.map */

@@ -356,7 +356,7 @@
             </label>
             <ul>
               <li>
-                <button class="order_click">
+                <button class="order_click" contact-modal-open>
                   <span>Availability in stores</span>
                   <svg width="20" height="20">
                     <use href="./assets/sprite.svg#icon-arrow-up-right"></use>
@@ -458,6 +458,7 @@
       </ul>
       <a href="tel:88007906530">8 (800) 790-65-30</a>
     </footer>
+    <!-- ----------------ORDER MODAL----------- -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal_close_btn" data-modal-close>
@@ -508,9 +509,34 @@
         </form>
       </div>
     </div>
+    <!-- ------------PHONE CONTACT MODAL-------------- -->
+    <div class="backdrop is-hidden" contact-modal>
+      <div class="contact_modal">
+        <button class="modal_close_btn" type="button" contact-modal-close>
+          <svg width="30" height="30">
+            <use href="./assets/sprite.svg#icon-clear"></use>
+          </svg>
+        </button>
+        <p></p>
+        <div class="contact_wrapper">
+          <a href=""></a>
+          <div>
+            <p></p>
+            <a href=""></a>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------PAYMENT MODAL----------- -->
+    <div></div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./js/swipper.js"></script>
     <script src="./js/modal-order.js"></script>
+    <script src="./js/contact-modal.js"></script>
     <script src="./js/faq.js"></script>
   </body>
 </html>
